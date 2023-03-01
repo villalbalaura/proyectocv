@@ -13,23 +13,248 @@
         <header>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#objetivolaboral">Objetivo laboral</a></li>
-                    <li><a href="#Datospersonales">Datos personales</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#educacion">Educacion</a></li>
-                    <li><a href="#experiencialaboral">Experiencia laboral</a></li>
-                    <li><a href="#contactame">Contactame :)</a></li>
-                    <li><a href="#misredessociales">Mis redes sociales</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#objetivo" onclick="seleccionar()">OBJETIVO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI </a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTAME!</a></li>                    
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
-
-
         </header>
     </div>
-    
+
+<section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="IMG/Lauri.jpg" alt="Imagen de perfil">
+            </div>
+            <h1>Laura Villalba</h1>
+            <h3>Frontend Developer</h3>
+        </div>
+</section>
+
+<section id="objetivo" class="objetivo">
+    <div class="contenido-seccion">
+    <h2>Objetivo Laboral</h2>
+    <p> <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer arcu massa, porttitor ac libero ut, porttitor tempus nulla. Cras eu dolor eget ligula dignissim venenatis. Etiam porttitor sem vel felis iaculis, lobortis finibus nunc tincidunt. In ut ligula sit amet magna egestas eleifend nec sit amet elit. Morbi finibus bibendum tortor, in feugiat libero aliquam vitae.</span> </p>
+    </div>
+</section>
+
+<section id="sobremi" class="sobremi">
+    <h2> Sobre Mi</h2>
+    <div class="fila">
+        <li>
+            <strong> Fecha de Nacimiento:</strong>
+            5 de Noviembre de 1993
+        </li>
+        <li>
+            <strong> Teléfono:</strong>
+            +54 1166435995
+        </li>
+        <li>
+            <strong> Email:</strong>
+            villalbalaura08@gmail.com
+        </li>
+        <li>
+            <strong> Ciudad:</strong>
+            CABA, Argentina
+        </li>
+        <br>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        <br>
+        <br>
+    </div>    
+</section>
+
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                   <span>HTML</span> 
+                   <div class="barra-skill">
+                        <div class="progreso html">
+                        <span>70%</span>
+                    </div>
+                   </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span> 
+                    <div class="barra-skill">
+                     <div class="progreso css">
+                     <span>70%</span>
+                     </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Javascript</span> 
+                      <div class="barra-skill">
+                       <div class="progreso javascript">
+                         <span>70%</span>
+                        </div>
+                    </div>
+               </div>
+               <div class="skill">
+                    <span>Wordpress</span> 
+                     <div class="barra-skill">
+                        <div class="progreso Wordpress">
+                         <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                   <span>Trabajo en Equipo</span> 
+                   <div class="barra-skill">
+                        <div class="progreso trabajo">
+                         <span>90%</span>
+                        </div>
+                   </div>
+                </div>
+                <div class="skill">
+                    <span>Proactividad</span> 
+                    <div class="barra-skill">
+                        <div class="progreso proactividad">
+                         <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Ética Laboral</span> 
+                      <div class="barra-skill">
+                       <div class="progreso etica">
+                         <span>99%</span>
+                        </div>
+                    </div>
+               </div>
+               <div class="skill">
+                    <span>Compromiso</span> 
+                    <div class="barra-skill">
+                    <div class="progreso compromiso">
+                    <span>90%</span>
+                     </div>
+                    </div>
+            </div>      
+        </div>
+    </div>
+</section>
+
+<section class="curriculum" id="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educacion</h3>
+                <div class="item izq">
+                    <h4>CARRERA A COMPLETAR</h4>
+                    <span class="casa">UNIVERSIDAD NOMBRE</span>
+                    <span class="fecha"> 2012 - 2016</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Unde ea sapiente ipsum deserunt repellat expedita 
+                    in cum voluptatem, eum enim odit vel animi aperiam tempore 
+                    amet quidem quasi vitae quibusdam?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>CARRERA A COMPLETAR</h4>
+                    <span class="casa">UNIVERSIDAD NOMBRE</span>
+                    <span class="fecha"> 2012 - 2016</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Unde ea sapiente ipsum deserunt repellat expedita 
+                    in cum voluptatem, eum enim odit vel animi aperiam tempore 
+                    amet quidem quasi vitae quibusdam?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>CARRERA A COMPLETAR</h4>
+                    <span class="casa">UNIVERSIDAD NOMBRE</span>
+                    <span class="fecha"> 2012 - 2016</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Unde ea sapiente ipsum deserunt repellat expedita 
+                    in cum voluptatem, eum enim odit vel animi aperiam tempore 
+                    amet quidem quasi vitae quibusdam?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col derecha">
+                <h3>Experiencia Laboral</h3>
+                <div class="item der">
+                    <h4>PUESTO DE TRABAJO</h4>
+                    <span class="casa">EMPRESA</span>
+                    <span class="fecha"> 2016 - 2020</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Unde ea sapiente ipsum deserunt repellat expedita 
+                    in cum voluptatem, eum enim odit vel animi aperiam tempore 
+                    amet quidem quasi vitae quibusdam?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <h2>Contactame!</h2>
+    <div class="redes">
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+    </div>
+    <form action="">
+        <div class="entrada">
+            <label for="">Nombre</label>
+            <input type="text">
+        </div>
+        <div class="entrada">
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+        <div class="entrada">
+            <label for="">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button>ENVIAR :)
+            <span class="overlay"></span>
+        </button>
+    </form>
+  </section>
+
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+</footer>
+
+<script src="index.js"></script>
+ 
 </body>
 </html>
